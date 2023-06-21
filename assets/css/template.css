@@ -14,3 +14,99 @@ body {
     background: linear-gradient(160deg, rgba(108,255,234,1) 14%, rgba(56,107,255,1) 52%, rgba(0,26,255,1) 81%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6cffea",endColorstr="#001aff",GradientType=1);
 }
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.container_form {
+    background-color: #fff;
+    width: min-content;
+    border-radius: 15px;
+    padding: 30px;
+}
+.title {
+    padding-bottom: 20px;
+}
+.title h2{
+    margin: 0px;
+    font-size: 35px;
+}
+.title_bar {
+    width: 30px;
+    height: 4px;
+    background: rgb(108,255,234);
+    background: -moz-linear-gradient(160deg, rgba(108,255,234,1) 14%, rgba(56,107,255,1) 52%, rgba(0,26,255,1) 81%);
+    background: -webkit-linear-gradient(160deg, rgba(108,255,234,1) 14%, rgba(56,107,255,1) 52%, rgba(0,26,255,1) 81%);
+    background: linear-gradient(160deg, rgba(108,255,234,1) 14%, rgba(56,107,255,1) 52%, rgba(0,26,255,1) 81%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6cffea",endColorstr="#001aff",GradientType=1);
+    border-radius: 5px;
+}
+.container .grupo_label {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    padding-bottom: 20px;
+}
+.container .grupo4 {
+    padding-bottom: 20px;
+}
+.grupo4 .generos {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    padding: 0px 30px 0px 30px;
+}
+.container .sub_title {
+    color: #000;
+    margin-bottom: 10px;
+}
+.div_label input {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+}
+.btn input {
+    font-size: 20px;
+    width: 550px;
+    padding: 10px;
+    background: rgb(108,255,234);
+    background: -moz-linear-gradient(160deg, rgba(108,255,234,1) 14%, rgba(56,107,255,1) 52%, rgba(0,26,255,1) 81%);
+    background: -webkit-linear-gradient(160deg, rgba(108,255,234,1) 14%, rgba(56,107,255,1) 52%, rgba(0,26,255,1) 81%);
+    background: linear-gradient(160deg, rgba(108,255,234,1) 14%, rgba(56,107,255,1) 52%, rgba(0,26,255,1) 81%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6cffea",endColorstr="#001aff",GradientType=1);
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+    cursor: pointer;
+}
+.btn input:hover {
+    background: rgb(108,255,234);
+    background: -moz-linear-gradient(160deg, rgba(108,255,234,1) 14%, rgba(150,177,255,1) 52%, rgba(0,26,255,1) 81%);
+    background: -webkit-linear-gradient(160deg, rgba(108,255,234,1) 14%, rgba(150,177,255,1) 52%, rgba(0,26,255,1) 81%);
+    background: linear-gradient(160deg, rgba(108,255,234,1) 14%, rgba(150,177,255,1) 52%, rgba(0,26,255,1) 81%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6cffea",endColorstr="#001aff",GradientType=1);
+}
+@media (max-width:770px) { 
+
+    .container .grupo_label {
+        display: block;
+        padding: 0px;
+    }
+    .container_form input {
+        margin-bottom: 15px;
+    }
+    .grupo4 .generos {
+        display: block;
+    }
+    .grupo4 label {
+        display: block;
+    }
+    .btn input {
+        width: 250px;
+    }
+}

@@ -9,6 +9,83 @@
     <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Poppins:wght@600&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <div class="container">
+        <div class="container_form">
+            <div class="title">
+                <h2>Cadastrar</h2>
+                <div class="title_bar"></div>
+            </div>
+            <form action="" method="POST">
+                <div class="grupo1 grupo_label">
+                    <div class="div_label">
+                        <label>
+                            <div class="sub_title">Nome:</div>
+                            <input type="text" class="editing-placeholder" placeholder="Seu nome" minlength="2" required>
+                        </label>
+                    </div>
+
+                    <div class="div_label">
+                        <label>
+                            <div class="sub_title">Sobrenome:</div>
+                            <input type="text" class="editing-placeholder" placeholder="Seu sobrenome" minlength="2" required>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="grupo2 grupo_label">
+                    <div class="div_label">
+                        <label>
+                            <div class="sub_title">E-mail:</div>
+                            <input type="email" placeholder="Seu e-mail" required>
+                        </label>
+                    </div>
+
+                    <div class="div_label">
+                        <label>
+                            <div class="sub_title">Confirme seu E-mail:</div>
+                            <input type="email" placeholder="Repita seu e-mail" required>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="grupo3 grupo_label">
+                    <div class="div_label">
+                        <label>
+                            <div class="sub_title">Senha:</div>
+                            <input type="password" placeholder="Sua senha" minlength="6" required>
+                        </label>
+                    </div>
+
+                    <div class="div_label">
+                        <label>
+                            <div class="sub_title">Confirme sua senha:</div>
+                            <input type="password" placeholder="Repita sua senha" minlength="6" required>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="grupo4">
+                    <div class="sub_title">Genero:</div>
+                    <div class="generos">
+                        <label>
+                            <input type="radio" name="genero_masculino"/> Masculino
+                        </label>
+                        <label>
+                            <input type="radio" name="genero_feminino"/> Feminino
+                        </label>
+                        <label>
+                            <input type="radio" name="genero_outro"/> Outro
+                        </label>
+                    </div>
+                </div>
+
+                <div class="btn">
+                    <label>
+                        <input type="submit" value="Fazer Cadastro"/>
+                    </label>
+                </div>
+            </form>
+        </div>
+    </div>
 </body>   
 </html>
