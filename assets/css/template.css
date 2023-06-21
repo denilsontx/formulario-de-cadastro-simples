@@ -17,7 +17,7 @@ body {
 .container {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin: 20px;
 }
 .container_form {
     background-color: #fff;
